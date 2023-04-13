@@ -1,0 +1,40 @@
+/* Authors: Yohai Hen Levi and David Jedwabsky */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: gray;
+  /* border: 10px solid red; */
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.app {
+  /*border: var(--border);*/
+
+  /*width 97% from body for small screens*/
+  width: 97%;
+
+  /*max width for big screens*/
+  max-width: 900px;
+
+  /*margin it's distance from frame of the page*/
+  margin-left: auto;
+  margin-right: auto;
+
+  /*padding it's distance from others elements*/
+  padding: 0.1rem 2rem;
+}
+
+
+/* #endregion layout */

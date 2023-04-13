@@ -1,0 +1,104 @@
+/* Authors: Yohai Hen Levi and David Jedwabsky */
+.main {
+  background-color: white;
+  padding: 2rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.deleteAll {
+  text-align: center;
+}
+
+.but {
+  width: 15%;
+  border: none;
+  background-color: cadetblue;
+  padding: 0.1rem;
+  font-size: 1rem;
+  color: white;
+  margin: 1rem;
+  border-radius: 50px;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popup input[type='text'],
+.popup input[type='email'],
+.popup input[type='number'],
+.popup textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.popup button {
+  width: 15%;
+  border: none;
+  background-color: cadetblue;
+  padding: 0.1rem;
+  font-size: 1rem;
+  color: white;
+  margin: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  border: solid black 1px;
+  margin-top: 10px;
+}
+
+.but {
+  width: 15%;
+  border: none;
+  background-color: cadetblue;
+  padding: 0.1rem;
+  font-size: 1rem;
+  color: white;
+  margin: 1rem;
+  border-radius: 50px;
+  border: solid black 1px;
+  cursor: pointer;
+}
+
+.but:hover {
+  background-color: #0069d9;
+}
+
+.persons{
+  margin-bottom: 5rem;
+  border-bottom: gray 0.15rem solid;
+  /* display: flex;
+  justify-content: space-between; */
+}

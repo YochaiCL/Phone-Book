@@ -1,0 +1,20 @@
+/* Authors: Yohai Hen Levi and David Jedwabsky */
+.but {
+  width: 15%;
+  border: none;
+  background-color: cadetblue;
+  padding: 0.1rem;
+  font-size: 1rem;
+  color: white;
+  margin: 1rem;
+  border-radius: 50px;
+  border: solid black 1px;
+}
+
+@media (max-width: 700px) {
+  .but {
+    width: 33%;
+    font-size: 1rem;
+    margin: 0;
+  }
+}
